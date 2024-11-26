@@ -1,0 +1,118 @@
+/* Reset & basic styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Sidebar EMI Calculator */
+#emi-calculator {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 350px;
+    background: #fff;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: none;
+    transition: all 0.3s ease;
+}
+
+#emi-calculator.open {
+    display: block;
+}
+
+/* Toggle Button */
+#emi-toggle {
+    position: fixed;
+    right: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    background: #e97b0d;
+    color: #142fe0;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px 0 0 8px;
+    font-size: 18px;
+    display: block;
+}
+
+/* EMI Calculator Header */
+.emi-header {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emi-close-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* EMI Content */
+.emi-content {
+    padding: 20px;
+}
+
+/* Input sliders and fields */
+.emi-input-group {
+    margin-bottom: 20px;
+}
+
+.emi-input-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.emi-input-group input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.slider {
+    width: 100%;
+}
+
+.emi-summary {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.emi-summary div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+/* Calculate Button */
+.emi-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    font-size: 16px;
+}

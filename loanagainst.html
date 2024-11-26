@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>N square Financial Consultant</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Elearn project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="plugins/video-js/video-js.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/news.css">
+<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+<link rel="stylesheet" type="text/css" href="emicalc.css">
+</head>
+<body>
+
+<!-- Header Content -->
+<div class="header_container">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                    <div class="logo_container">
+                        <a href="#">
+                            <div class="logo_content d-flex flex-row align-items-end justify-content-start">
+                                <div class="logo_img"><img src="images/logo.png" alt=""></div>
+                                <div class="logo_text">Nsquare Finanace</div>
+                            </div>
+                        </a>
+                    </div>
+                    <nav class="main_nav_contaner ml-auto">
+                        <ul class="main_nav">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">about us</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Loans
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="homeloan.html">Home Loan</a>
+                                    <a class="dropdown-item" href="loanagainst.html">Loan Against Property</a>
+                                    <a class="dropdown-item" href="carloan.html">Car Loan</a>
+                                    <a class="dropdown-item" href="buisnessloan.html">Buisness Loan</a>
+                                    <a class="dropdown-item" href="eduloan.html">Education Loan</a>
+                                    <a class="dropdown-item" href="cvehicleloan.html">Commercial Vehicle Loan</a>
+                                    <a class="dropdown-item" href="const_loan.html">Construction Equipment Loan</a>
+                                    <a class="dropdown-item" href="msmeloan.html">MSME Loan</a>
+                                    <a class="dropdown-item" href="projectloan.html">Project Loan</a>
+                                    <a class="dropdown-item" href="ploan.html">Personal Loan</a>
+                                    <!-- Add more services as needed -->
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Insurance
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  
+                                    <a class="dropdown-item" href="lifeinsurance.html">Life Insurance</a>
+                                    <a class="dropdown-item" href="healthinsurance.html">Health Insurance</a>
+                                    <a class="dropdown-item" href="generalinsurance.html">General Insurance</a>
+                                
+                                    <!-- Add more services as needed -->
+                                </div>
+                            </li>
+                            <li><a href="partners.html">Become a Partner</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                        <!-- <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div> -->
+                        <!-- Hamburger -->
+                        <div class="hamburger menu_mm"><i class="fa fa-bars menu_mm" aria-hidden="true"></i></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu -->
+
+<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+    <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+    
+    <nav class="menu_nav">
+        <ul class="menu_mm">
+            <li class="menu_mm"><a href="index.html">Home</a></li>
+            <li class="menu_mm"><a href="about.html">About Us</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Loans
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="homeloan.html">Home Loan</a>
+                    <a class="dropdown-item" href="loanagainst.html">Loan Against Property</a>
+                    <a class="dropdown-item" href="carloan.html">Car Loan</a>
+                    <a class="dropdown-item" href="buisnessloan.html">Buisness Loan</a>
+                    <a class="dropdown-item" href="eduloan.html">Education Loan</a>
+                    <a class="dropdown-item" href="cvehicleloan.html">Commercial Vehicle Loan</a>
+                    <a class="dropdown-item" href="const_loan.html">Construction Equipment Loan</a>
+                    <a class="dropdown-item" href="msmeloan.html">MSME Loan</a>
+                    <a class="dropdown-item" href="projectloan.html">Project Loan</a>
+                    <a class="dropdown-item" href="ploan.html">Personal Loan</a>
+                    <!-- Add more services as needed -->
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Insurance
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <a class="dropdown-item" href="lifeinsurance.html">Life Insurance</a>
+                    <a class="dropdown-item" href="healthinsurance.html">Health Insurance</a>
+                    <a class="dropdown-item" href="generalinsurance.html">General Insurance</a>
+                
+                    <!-- Add more services as needed -->
+                </div>
+            </li>
+            <li class="menu_mm"><a href="partners.html">Become a Partner</a></li>
+            <li class="menu_mm"><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+</div>    
+
+<div class="home">
+    <!-- Background image artist https://unsplash.com/@thepootphotographer -->
+    <div class="home_background parallax_background parallax-window" data-parallax="scroll"
+        data-image-src="loanagainstprop.jpeg" data-speed="0.8"></div>
+    <div class="home_container">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="home_content text-center">
+                        <div class="home_title">Loan Against Property</div>
+                        <div class="breadcrumbs">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li>Loan Against Property</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- News -->
+<div class="news">
+    <div class="container">
+        <div class="row">
+            <!-- News Posts -->
+            <div class="col-lg-8">
+                <div class="news_posts">
+                    <!-- Home Loan Overview -->
+                    <div class="news_post card">
+                        <div class="news_post_image"><img src="loanagainstprop.jpeg" alt="" class="img-fluid rounded"></div>
+                        <div class="news_post_body">
+                            <div class="news_post_title"><a>Loan Against Property </a></div>
+                            <div class="news_post_text">
+                                <p>A Loan Against Property (LAP) is a secured loan where borrowers use their residential or commercial property as collateral to get a loan from a bank or financial institution.
+                                     This loan can be used for various personal or business purposes, offering higher loan amounts at lower interest rates compared to unsecured loans like personal loans.</p>
+                                     <h3>Key Features of a Loan Against Property</h3>
+                                     <ul>
+                                         <li><strong>Loan Amount:</strong> Typically 40-70% of the property’s current market value, depending on the lender and borrower's profile.</li>
+                                         <li><strong>Interest Rates:</strong> Lower than personal loans since the loan is secured by collateral. Interest rates can be fixed or floating.</li>
+                                         <li><strong>Loan Tenure:</strong> Can range from 5 to 20 years, depending on the lender’s policy and the borrower’s repayment capacity.</li>
+                                         <li><strong>EMIs:</strong> Monthly installments to pay back the loan, which include both principal and interest.</li>
+                                         <li><strong>Type of Property:</strong> Both residential and commercial properties can be used as collateral, as long as the title is clear and the property is free of liens.</li>
+                                     </ul> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Types of Home Loans -->
+                    <div class="news_post card">
+                        <div class="news_post_image"><img src="usesoflap.jpeg" alt="" class="img-fluid rounded"></div>
+                        <div class="news_post_body">
+                            <div class="news_post_title"><a><h3>Common Uses for a Loan Against Property</h3></a></div>
+                            <div class="news_post_text">
+                                <ul>
+                                    <li><strong>Business Expansion</strong></li>
+                                    <li><strong>Medical or Educational Expenses</strong></li>
+                                    <li><strong>Debt Consolidation</strong></li>
+                                    <li><strong>Large Purchases or Events</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Eligibility Criteria -->
+                    <div class="news_post card">
+                        <div class="news_post_image"><img src="eligible.jpeg" alt="" class="img-fluid rounded"></div>
+                        <div class="news_post_body">
+                            <div class="news_post">
+                                
+                                <div class="news_post_body">
+                                    <div class="news_post_title"><a>Eligibility Criteria</a></div>
+                                    <div class="news_post_text">
+                                        <ul>
+                                            <li><strong>Property Ownership:</strong> Clear title and ownership of the property.</li>
+                                            <li><strong>Income and Employment Stability:</strong> Proof of income and repayment ability.</li>
+                                            <li><strong>Credit Score:</strong> Generally, a good credit score (650+) improves eligibility.</li>
+                                            <li><strong>Age:</strong> Usually between 21 and 65 years, but may vary by lender.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Tax Benefits -->
+                    
+                    <div class="news_post card">
+                        <div class="news_post_image"><img src="taxbenefits.jpeg" alt="" class="img-fluid rounded"></div>
+                        <div class="news_post_body">
+                            <div class="news_post_title"><a>Tax Benefits</a></div>
+                            <div class="news_post_text">
+                                <ul>
+                                    <li><strong>For Business Purposes*:</strong> Interest paid can be claimed as a business expense.</li>
+                                    <li><strong>For Personal Use:</strong> Generally, there are no tax benefits unless the loan is used for buying or constructing a new property.</li>
+                                </ul>
+                            </div>
+                            <div class="news_post_image"><img src="advantage.jpeg" alt="" class="img-fluid rounded"></div>
+                            <div class="news_post_title"><a>Advantages</a></div>
+                            <div class="news_post_text">
+                                <ul>
+                                    <li><strong>Higher Loan Amount:</strong> Due to the secured nature, larger loans are possible.</li>
+                                    <li><strong>Lower Interest Rates:</strong> Compared to unsecured loans like personal loans.</li>
+                                    <li><strong>Flexible Repayment Terms:</strong> Allows for long repayment tenures, reducing monthly EMI burden.</li>
+                                    <li><strong>Retain Property Ownership:</strong> You still own and can use the property, provided you meet repayment terms.</li>
+                                </ul>
+                            </div>
+                            <div class="news_post_image"><img src="consider.jpeg" alt="" class="img-fluid rounded"></div>
+                            <div class="news_post_title"><a>Considerations</a></div>
+                            <div class="news_post_text">
+                                <ul>
+                                    <li><strong>Risk of Losing Property:</strong> In case of default, the lender can take ownership of the property.</li>
+                                    <li><strong>Processing Time:</strong> More documentation and property valuation steps may make the process longer than a personal loan.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <style>
+                        body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.news_post_image img {
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Sidebar Styles */
+.sidebar_categories {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar_title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.sidebar_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar_links ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar_links ul li a:hover {
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .news_posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+                    </style>
+                    
+
+                </div>
+            </div>
+            
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <div class="sidebar">
+                    <div class="sidebar_categories">
+                        <div class="sidebar_title">Other Services</div>
+                        <div class="sidebar_links">
+                            <ul>
+                                <li><a class="dropdown-item" href="homeloan.html">Home Loan</a>
+                                    
+                                    <a class="dropdown-item" href="carloan.html">Car Loan</a>
+                                    <a class="dropdown-item" href="buisnessloan.html">Buisness Loan</a>
+                                    <a class="dropdown-item" href="eduloan.html">Education Loan</a>
+                                    <a class="dropdown-item" href="cvehicleloan.html">Commercial Vehicle Loan</a>
+                                    <a class="dropdown-item" href="const_loan.html">Construction Equipment Loan</a>
+                                    <a class="dropdown-item" href="msmeloan.html">MSME Loan</a>
+                                    <a class="dropdown-item" href="projectloan.html">Project Loan</a>
+                                    <a class="dropdown-item" href="ploan.html">Personal Loan</a>
+                                    <a class="dropdown-item" href="lifeinsurance.html">Life Insurance</a>
+                                    <a class="dropdown-item" href="healthinsurance.html">Health Insurance</a>
+                                    <a class="dropdown-item" href="generalinsurance.html">General Insurance</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- About -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_about">
+						<div class="logo_container">
+							<a href="#">
+								<div class="logo_content d-flex flex-row align-items-end justify-content-start">
+									<div class="logo_img"><img src="images/logo.png" alt=""></div>
+									<div class="logo_text">Nsquare Finance</div>
+								</div>
+							</a>
+						</div>
+						<div class="footer_about_text">
+							<p>Your partner in achieving financial success.</p>
+						</div>
+						<div class="footer_social">
+							<ul>
+								
+								<li><a href="https://www.facebook.com/nsquareconsultant/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="http://instagram.com/nsquarecompany"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								
+							</ul>
+						</div>
+						
+					</div>
+				</div>				
+
+				<div class="col-lg-3 footer_col">
+					<div class="footer_links">
+						<div class="footer_title">Quick menu</div>
+						<ul class="footer_list">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About us</a></li>
+							
+							<li><a href="partners.html">Become a Partner</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<!-- <li><a href="#">Facts</a></li> -->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 footer_col">
+					<div class="footer_links">
+						<div class="footer_title">Useful Links</div>
+						<ul class="footer_list">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Loans
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="homeloan.html">Home Loan</a>
+                                    <a class="dropdown-item" href="loanagainst.html">Loan Against Property</a>
+                                    <a class="dropdown-item" href="carloan.html">Car Loan</a>
+                                    <a class="dropdown-item" href="buisnessloan.html">Buisness Loan</a>
+                                    <a class="dropdown-item" href="eduloan.html">Education Loan</a>
+                                    <a class="dropdown-item" href="cvehicleloan.html">Commercial Vehicle Loan</a>
+                                    <a class="dropdown-item" href="const_loan.html">Construction Equipment Loan</a>
+                                    <a class="dropdown-item" href="msmeloan.html">MSME Loan</a>
+                                    <a class="dropdown-item" href="projectloan.html">Project Loan</a>
+                                    <a class="dropdown-item" href="ploan.html">Personal Loan</a>
+                                    <!-- Add more services as needed -->
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Insurance
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  
+                                    <a class="dropdown-item" href="lifeinsurance.html">Life Insurance</a>
+                                    <a class="dropdown-item" href="healthinsurance.html">Health Insurance</a>
+                                    <a class="dropdown-item" href="generalinsurance.html">General Insurance</a>
+                                
+                                    <!-- Add more services as needed -->
+                                </div>
+                            </li>	
+							
+							
+							<!-- <li><a href="#">Links</a></li>
+							<li><a href="#">FAQ</a></li> -->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 footer_col">
+					<div class="footer_contact">
+						<div class="footer_title">Contact Us</div>
+						<div class="footer_contact_info">
+							<div class="footer_contact_item">
+								<div class="footer_contact_title">Address:</div>
+								<div class="footer_contact_line">Nest Coworking, Opp. Tata Capital Housing, Red Cross Road, Sadar, Nagpur - 440001</div>
+							</div>
+							<div class="footer_contact_item">
+								<div class="footer_contact_title">Phone:</div>
+								<div class="footer_contact_line">919860501379</div>
+							</div>
+							<div class="footer_contact_item">
+								<div class="footer_contact_title">Email:</div>
+								<div class="footer_contact_line">nishant@nsquareconsultant.com</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="copyright">
+            <p class="text-center text-md-end text-xl-start"> 
+                &copy; 2024 nsquare Finance Consultant. All rights reserved.
+                  </p>
+            </div>
+	</footer>
+    <div id="emi-toggle"><strong>EMI Calc</strong></div>
+
+			<div id="emi-calculator">
+				<div class="emi-header">
+					EMI Calculator
+					<button class="emi-close-btn" id="emi-close-btn">&times;</button>
+				</div>
+				<div class="emi-content">
+					<div class="emi-input-group">
+						<label for="loanAmount">Loan Amount</label>
+						<input type="number" id="loanAmount" placeholder="₹1,00,000">
+						<input type="range" id="loanAmountSlider" class="slider" min="10000" max="5000000" step="10000">
+					</div>
+					<div class="emi-input-group">
+						<label for="interestRate">Interest Rate (%)</label>
+						<input type="number" id="interestRate" placeholder="10%">
+						<input type="range" id="interestRateSlider" class="slider" min="1" max="20" step="0.1">
+					</div>
+					<div class="emi-input-group">
+						<label for="loanTenure">Loan Tenure (Years)</label>
+						<input type="number" id="loanTenure" placeholder="5">
+						<input type="range" id="loanTenureSlider" class="slider" min="1" max="30">
+					</div>
+
+					<div class="emi-summary">
+						<div><strong>Monthly EMI:</strong> <span id="monthlyEmi">₹0</span></div>
+						<div><strong>Total Payment:</strong> <span id="totalPayment">₹0</span></div>
+						<div><strong>Total Interest:</strong> <span id="totalInterest">₹0</span></div>
+					</div>
+
+					<button class="emi-button" onclick="calculateEMI()">Calculate EMI</button>
+				</div>
+			</div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/news.js"></script>
+<script src="emicalc.js"></script>
+</body>
+</html>

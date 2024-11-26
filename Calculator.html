@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>EMI Calculator</h1>
+        <form id="emiForm">
+            <div class="form-group">
+                <label for="loanAmount">Loan Amount (₹):</label>
+                <input type="number" id="loanAmount" required>
+            </div>
+
+            <div class="form-group">
+                <label for="interestRate">Annual Interest Rate (%):</label>
+                <input type="number" id="interestRate" step="0.01" required>
+            </div>
+
+            <div class="form-group">
+                <label for="loanTenure">Loan Tenure (Years):</label>
+                <input type="number" id="loanTenure" required>
+            </div>
+
+            <button type="button" onclick="calculateEMI()">Calculate EMI</button>
+        </form>
+
+        <div class="result" id="result">
+            <!-- EMI result will be displayed here -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
